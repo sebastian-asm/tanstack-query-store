@@ -4,7 +4,7 @@ import { RouterProvider } from 'react-router-dom'
 import { NextUIProvider } from '@nextui-org/react'
 
 import { router } from './router/router.tsx'
-import { TanstackProvider } from '../plugins/TanstackProvider.tsx'
+import { TanstackProvider } from './plugins/TanstackProvider.tsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
