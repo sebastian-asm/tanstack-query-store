@@ -239,6 +239,54 @@
         "rate": 3.6,
         "count": 145
       }
+    },
+    {
+      "title": "demo",
+      "price": 4,
+      "description": "mensaje de prueba",
+      "category": "jewelery",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "id": 21
+    },
+    {
+      "title": "dfsdfsdf",
+      "price": 2,
+      "description": "dsfsdfs",
+      "category": "men's clothing",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "id": 22
+    },
+    {
+      "title": "sadsad",
+      "price": 3,
+      "description": "sdfsdfsdf",
+      "category": "men's clothing",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "id": 23
+    },
+    {
+      "title": "rwer4324324",
+      "price": 4,
+      "description": "ewrerwerwerwer",
+      "category": "women's clothing",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "id": 24
+    },
+    {
+      "title": "34543543534534",
+      "price": 5,
+      "description": "fsdfsdfsdf",
+      "category": "women's clothing",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "id": 25
+    },
+    {
+      "title": "demo test",
+      "price": 55,
+      "description": "dsfsdgdfgdfg",
+      "category": "women's clothing",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "id": 26
     }
   ]
 }
