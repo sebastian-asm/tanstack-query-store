@@ -40,6 +40,17 @@ export const useProductMutation = () => {
           )
         }
       )
+    },
+    // primer valor es error
+    onError: (_, variables, context) => {
+      queryClient.removeQueries({ queryKey: ['products', context?.tempProduct.id] })
+      queryClient.setQueryData<Product[]>(
+        ['products', { filterKey: variables.category }],
+        (oldState) => {
+          if (!oldState) return []
+          return oldState.filter((cacheProduct) => cacheProduct.id !== context?.tempProduct.id)
+        }
+      )
     }
   })
 
