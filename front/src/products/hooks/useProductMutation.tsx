@@ -6,6 +6,19 @@ export const useProductMutation = () => {
   const queryClient = useQueryClient()
   const mutation = useMutation({
     mutationFn: productActions.createProduct,
+    onMutate: (product) => {
+      // optimistic update
+      const tempProduct = { id: Math.random(), ...product }
+      console.log({ tempProduct })
+      // pasando el producto temporal a la cache del queryclient
+      queryClient.setQueryData<Product[]>(
+        ['products', { filterKey: product.category }],
+        (oldState) => {
+          if (!oldState) return [tempProduct]
+          return [...oldState, tempProduct]
+        }
+      )
+    },
     onSuccess: (product) => {
       console.log('Producto creado')
       // esto permitirá que cuando se ingresa a una categoría despúes de haber agregado un nuevo producto
