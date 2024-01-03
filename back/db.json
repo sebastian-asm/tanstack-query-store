@@ -242,67 +242,19 @@
     },
     {
       "title": "demo",
-      "price": 4,
-      "description": "mensaje de prueba",
-      "category": "jewelery",
-      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "price": 1,
+      "description": "test",
+      "category": "women's clothing",
+      "image": "https://i5.walmartimages.com/asr/fe47a4ab-5ecc-414f-ae49-6c7a2669e11b_1.42489ef0e331c97f5252d7fc211303a1.jpeg",
       "id": 21
     },
     {
-      "title": "dfsdfsdf",
-      "price": 2,
-      "description": "dsfsdfs",
-      "category": "men's clothing",
-      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-      "id": 22
-    },
-    {
-      "title": "sadsad",
+      "title": "demo 2",
       "price": 3,
-      "description": "sdfsdfsdf",
-      "category": "men's clothing",
-      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-      "id": 23
-    },
-    {
-      "title": "rwer4324324",
-      "price": 4,
-      "description": "ewrerwerwerwer",
+      "description": "test",
       "category": "women's clothing",
-      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-      "id": 24
-    },
-    {
-      "title": "34543543534534",
-      "price": 5,
-      "description": "fsdfsdfsdf",
-      "category": "women's clothing",
-      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-      "id": 25
-    },
-    {
-      "title": "demo test",
-      "price": 55,
-      "description": "dsfsdgdfgdfg",
-      "category": "women's clothing",
-      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-      "id": 26
-    },
-    {
-      "title": "dsfsdfsd",
-      "price": 1,
-      "description": "fsdfsf",
-      "category": "women's clothing",
-      "image": "https://i5.walmartimages.com/asr/fe47a4ab-5ecc-414f-ae49-6c7a2669e11b_1.42489ef0e331c97f5252d7fc211303a1.jpeg",
-      "id": 27
-    },
-    {
-      "title": "sdfdsf",
-      "price": 0,
-      "description": "dsfsd",
-      "category": "women's clothing",
-      "image": "https://i5.walmartimages.com/asr/fe47a4ab-5ecc-414f-ae49-6c7a2669e11b_1.42489ef0e331c97f5252d7fc211303a1.jpeg",
-      "id": 28
+      "image": "https://media.4rgos.it/i/Argos/2678571_R_Z001A_UC1666949",
+      "id": 22
     }
   ]
 }
